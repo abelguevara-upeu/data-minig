@@ -1,0 +1,11 @@
+version: '3.0'
+services:
+  anaconda:
+    container_name: ml
+    build: .
+    tty: true
+    restart: always
+    volumes:
+      - "./notebooks:/opt/notebooks"
+    ports:
+      - "8888:8888"
