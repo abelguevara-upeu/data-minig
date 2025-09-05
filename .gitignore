@@ -23,6 +23,8 @@ notebooks/notebooksazure
 notebooks/privados
 notebooks/taller-r
 
+**/.ipynb_checkpoints/
+
 varios
 
 notebooks/ia
