@@ -1,7 +1,6 @@
-version: '3.0'
 services:
   anaconda:
-    container_name: ml
+    container_name: md
     build: .
     tty: true
     restart: always

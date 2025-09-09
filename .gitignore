@@ -23,6 +23,7 @@ notebooks/notebooksazure
 notebooks/privados
 notebooks/taller-r
 
+# Ignorar checkpoints de Jupyter notebooks
 **/.ipynb_checkpoints/
 
 varios
@@ -33,3 +34,5 @@ notebooks/202ml
 notebooks/md
 
 .R*
+
+.DS_Store
