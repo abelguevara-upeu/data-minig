@@ -14,7 +14,7 @@
     },
     {
       "numero": 2,
-      "variable": "CASEID",
+      "variable": "HHID",
       "descripcion": "Identificación de caso",
       "tipo": "N",
       "longitud": 15,
@@ -22,7 +22,7 @@
     },
     {
       "numero": 3,
-      "variable": "IDX",
+      "variable": "HA0",
       "descripcion": "Número de orden en hogar",
       "tipo": "N",
       "longitud": 2,
@@ -30,7 +30,7 @@
     },
     {
       "numero": 4,
-      "variable": "HA2",
+      "variable": "HA1",
       "descripcion": "Edad de la mujer en años",
       "tipo": "N",
       "longitud": 2,
@@ -38,7 +38,7 @@
     },
     {
       "numero": 5,
-      "variable": "HA3",
+      "variable": "HA2",
       "descripcion": "Peso en kilogramos (1 decimal)",
       "tipo": "N",
       "longitud": 4,
@@ -46,7 +46,7 @@
     },
     {
       "numero": 6,
-      "variable": "HA4",
+      "variable": "HA3",
       "descripcion": "Talla en centímetros (1 decimal)",
       "tipo": "N",
       "longitud": 4,
@@ -54,7 +54,7 @@
     },
     {
       "numero": 7,
-      "variable": "HA11",
+      "variable": "HA4",
       "descripcion": "Talla/Edad percentil en que se encuentra",
       "tipo": "N",
       "longitud": 4,
@@ -65,7 +65,7 @@
     },
     {
       "numero": 8,
-      "variable": "HA12",
+      "variable": "HA5",
       "descripcion": "Talla/Edad Desviación Estándar",
       "tipo": "N",
       "longitud": 4,
@@ -76,7 +76,7 @@
     },
     {
       "numero": 9,
-      "variable": "HA13",
+      "variable": "HA6",
       "descripcion": "Talla/Edad porcentaje respecto a la mediana de referencia",
       "tipo": "N",
       "longitud": 5,
@@ -282,7 +282,7 @@
     },
     {
       "numero": 27,
-      "variable": "HA57",
+      "variable": "HA56A",
       "descripcion": "Nivel de hemoglobina ajustada por altitud en g/dl - 1 decimal NUEVA DIRECTRIZ OMS",
       "tipo": "N",
       "longitud": 3,
@@ -290,7 +290,7 @@
     },
     {
       "numero": 28,
-      "variable": "HA57A",
+      "variable": "HA57",
       "descripcion": "Nivel de anemia RM 363-2022-MINSA",
       "tipo": "N",
       "longitud": 1,
@@ -304,7 +304,7 @@
     },
     {
       "numero": 29,
-      "variable": "HA59",
+      "variable": "HA57A",
       "descripcion": "Nivel de Anemia NUEVA DIRECTRIZ OMS 2024/RM 251-2024-MINSA",
       "tipo": "N",
       "longitud": 1,
@@ -342,7 +342,7 @@
     },
     {
       "numero": 32,
-      "variable": "HV61",
+      "variable": "HA61",
       "descripcion": "Lea la declaración de consentimiento (VIH)",
       "tipo": "N",
       "longitud": 1,
@@ -356,14 +356,14 @@
     },
     {
       "numero": 33,
-      "variable": "HV62",
+      "variable": "HA62",
       "descripcion": "Número de identificación de la muestra de sangre",
       "tipo": "A",
       "longitud": 5
     },
     {
       "numero": 34,
-      "variable": "HV63",
+      "variable": "HA63",
       "descripcion": "Resultado de la medición (VIH)",
       "tipo": "N",
       "longitud": 1,
@@ -379,7 +379,7 @@
     },
     {
       "numero": 35,
-      "variable": "HV64",
+      "variable": "HA64",
       "descripcion": "Consentimiento para pruebas adicionales",
       "tipo": "N",
       "longitud": 1,
@@ -392,7 +392,7 @@
     },
     {
       "numero": 36,
-      "variable": "HV65",
+      "variable": "HA65",
       "descripcion": "Resultado de la entrevista individual a la mujer",
       "tipo": "N",
       "longitud": 1,
@@ -409,7 +409,7 @@
     },
     {
       "numero": 37,
-      "variable": "HV66",
+      "variable": "HA66",
       "descripcion": "El nivel educativo más alto aprobado de la mujer",
       "tipo": "N",
       "longitud": 1,
@@ -424,7 +424,7 @@
     },
     {
       "numero": 38,
-      "variable": "HV67",
+      "variable": "HA67",
       "descripcion": "El año más alto de educación de la mujer",
       "tipo": "N",
       "longitud": 2,
@@ -435,7 +435,7 @@
     },
     {
       "numero": 39,
-      "variable": "HV68",
+      "variable": "HA68",
       "descripcion": "Nivel educativo más alto (CS para el informe preliminar y final)",
       "tipo": "N",
       "longitud": 1,
@@ -450,7 +450,7 @@
     },
     {
       "numero": 40,
-      "variable": "HV69",
+      "variable": "HA69",
       "descripcion": "Peso del VIH (6 decimales)",
       "tipo": "N",
       "longitud": 8

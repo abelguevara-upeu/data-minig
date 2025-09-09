@@ -136,7 +136,7 @@
       "tipo": "N",
       "longitud": 2,
       "rango": "1:9",
-      "categorias": [
+      "alternativas": [
         {"valor": 1, "descripcion": "Completo"},
         {"valor": 2, "descripcion": "Hogar presente pero entrevistado ausente"},
         {"valor": 3, "descripcion": "Hogar ausente"},
@@ -163,7 +163,7 @@
       "tipo": "N",
       "longitud": 1,
       "rango": "0:1",
-      "categorias": [
+      "alternativas": [
         {"valor": 0, "descripcion": "Muestra todas las mujeres"},
         {"valor": 1, "descripcion": "Muestra alguna vez casado"}
       ]
@@ -183,7 +183,7 @@
       "tipo": "N",
       "longitud": 2,
       "rango": "1:25",
-      "categorias": [
+      "alternativas": [
         {"valor": 1, "descripcion": "Amazonas"},
         {"valor": 2, "descripcion": "Ancash"},
         {"valor": 3, "descripcion": "Apurimac"},
@@ -226,7 +226,7 @@
       "tipo": "N",
       "longitud": 1,
       "rango": "1:2",
-      "categorias": [
+      "alternativas": [
         {"valor": 1, "descripcion": "Urbano"},
         {"valor": 2, "descripcion": "Rural"}
       ]
@@ -238,7 +238,7 @@
       "tipo": "N",
       "longitud": 1,
       "rango": "0:3",
-      "categorias": [
+      "alternativas": [
         {"valor": 0, "descripcion": "Capital, gran ciudad"},
         {"valor": 1, "descripcion": "Pequeña ciudad"},
         {"valor": 2, "descripcion": "Pueblo"},
@@ -252,7 +252,7 @@
       "tipo": "N",
       "longitud": 1,
       "rango": "0:2",
-      "categorias": [
+      "alternativas": [
         {"valor": 0, "descripcion": "No seleccionado"},
         {"valor": 1, "descripcion": "Encuesta de hombres"},
         {"valor": 2, "descripcion": "Encuesta del esposo"}
@@ -324,7 +324,7 @@
       "tipo": "N",
       "longitud": 1,
       "rango": "0:1",
-      "categorias": [
+      "alternativas": [
         {"valor": 0, "descripcion": "No seleccionado"},
         {"valor": 1, "descripcion": "Seleccionado"}
       ]
@@ -336,7 +336,7 @@
       "tipo": "N",
       "longitud": 1,
       "rango": "0:1",
-      "categorias": [
+      "alternativas": [
         {"valor": 0, "descripcion": "Hogar no seleccionado"},
         {"valor": 1, "descripcion": "Hogar seleccionado"}
       ]
@@ -348,7 +348,7 @@
       "tipo": "N",
       "longitud": 1,
       "rango": "0:1",
-      "categorias": [
+      "alternativas": [
         {"valor": 0, "descripcion": "Hogar no seleccionado"},
         {"valor": 1, "descripcion": "Hogar seleccionado"}
       ]
@@ -377,7 +377,7 @@
     },
     {
       "numero": 40,
-      "variable": "NCONGLOME",
+      "variable": "NCONGLOME1",
       "descripcion": "Número de Conglomerado (proveniente del marco)",
       "tipo": "A",
       "longitud": 7
