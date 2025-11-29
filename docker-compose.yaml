@@ -3,7 +3,7 @@ services:
     container_name: md
     build: .
     tty: true
-    restart: always
+    #restart: always
     volumes:
       - "./notebooks:/opt/notebooks"
     ports:
